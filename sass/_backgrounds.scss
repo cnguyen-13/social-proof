@@ -22,7 +22,14 @@
     right: 0;
 }
 
+@media (min-width: 500px) {
+    .bg {
+        width: auto;
+    }
+}
+
 @media (min-width: 1440px) {
+
     .mobile-bg {
         display: none;
     }

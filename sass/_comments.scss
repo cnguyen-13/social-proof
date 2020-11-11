@@ -5,7 +5,7 @@
 }
 
 .comment {
-    color: $color-white;
+    color: $color-light;
     background-color: $color-primary;
     border-radius: 0.5rem;
     padding: 2rem;
@@ -13,12 +13,9 @@
 
 
 .avatar {
-    display: block;
     border-radius: 50%;
     height: 45px;
     width: 45px;
-    // transform: scale(0.5);
-
 }
 
 .commenter {
