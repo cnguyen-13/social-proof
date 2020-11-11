@@ -34,3 +34,24 @@
 .commenter-title {
     color: $color-secondary;
 }
+
+@media (min-width: 1440px) {
+    #comments {
+        flex-direction: row;
+        gap: 2rem;
+
+    }
+
+    .comment-1 {}
+
+    .comment-2 {
+        position: relative;
+        top: 1rem;
+        font-size: 15px;
+    }
+
+    .comment-3 {
+        position: relative;
+        top: 2rem;
+    }
+}

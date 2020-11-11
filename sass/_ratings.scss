@@ -21,3 +21,33 @@
 .star {
     margin: 0 0.1rem;
 }
+
+@media (min-width: 1440px) {
+    #ratings {
+        margin-top: 1rem;
+    }
+
+    .stars {
+        gap: 0.1rem;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .rating {
+        position: relative;
+        padding: 1.13rem;
+        flex-direction: row;
+        padding-left: 2rem;
+        padding-right: 0;
+        gap: 1.5rem;
+    }
+
+    .rating-1 {
+        right: 7rem;
+    }
+
+    .rating-2 {
+        right: 3.5rem;
+    }
+}
