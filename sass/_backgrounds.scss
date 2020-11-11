@@ -1,0 +1,33 @@
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.mobile-bg {
+    display: block;
+}
+
+.dt-bg {
+    display: none;
+}
+
+.bg-top {
+    top: 0;
+    left: 0;
+}
+
+.bg-bottom {
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: 1440px) {
+    .mobile-bg {
+        display: none;
+    }
+
+    .dt-bg {
+        display: block;
+    }
+}
