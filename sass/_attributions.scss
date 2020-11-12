@@ -1,7 +1,18 @@
 .attribution {
-    font-size: 11px;
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 1rem auto;
     text-align: center;
+    font-size: 11px;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+    .attribution {
+        max-width: 1175px;
+        text-align: right;
+    }
+}
