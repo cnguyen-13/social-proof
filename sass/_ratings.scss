@@ -10,7 +10,7 @@
     color: $color-primary;
     background-color: $color-dark;
     font-weight: bold;
-    font-size: 13px;
+    font-size: $font-size-sm;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,4 +20,35 @@
 
 .star {
     margin: 0 0.1rem;
+}
+
+@media (min-width: 1440px) {
+    #ratings {
+        margin-top: 1rem;
+    }
+
+    .stars {
+        gap: 0.2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .rating {
+        width: 95%;
+        position: relative;
+        padding: 1.13rem;
+        padding-left: 2rem;
+        padding-right: 0;
+        flex-direction: row;
+        gap: 2rem;
+        align-self: flex-end;
+    }
+
+    .rating-1 {
+        right: 6rem;
+    }
+
+    .rating-2 {
+        right: 3rem;
+    }
 }

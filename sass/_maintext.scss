@@ -1,15 +1,33 @@
 #main-text {
     text-align: center;
     margin-top: 3rem;
+    color: $color-primary;
 }
 
 .main-title {
-    color: $color-primary;
     line-height: 1;
     margin-bottom: 1.5rem;
 }
 
 .lead-paragraph {
-    font-size: 13px;
+    font-size: $font-size-sm;
     letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+@media (min-width: 1440px) {
+    #main-text {
+        margin-top: 0.25rem;
+        text-align: left;
+    }
+
+    .main-title {
+        font-size: $font-size-norm-header;
+        margin-bottom: 1rem;
+    }
+
+    .lead-paragraph {
+        font-size: $font-size-norm;
+        letter-spacing: 0;
+    }
 }
