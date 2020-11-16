@@ -1,5 +1,5 @@
 #main-content {
-    max-width: 800px;
+    max-width: $width-max-sm;
     margin: 0 auto;
     padding: 1.5rem;
     display: flex;
@@ -10,7 +10,7 @@
 @media (min-width: 1440px) {
     #main-content {
         padding-top: 7.75rem;
-        max-width: 1175px;
+        max-width: $width-max-norm;
         display: grid;
         gap: 4rem 12.5rem;
         grid-template-columns: repeat(2, 1fr);

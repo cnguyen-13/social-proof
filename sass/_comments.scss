@@ -11,6 +11,13 @@
     padding: 2rem;
 }
 
+//Reviewer
+.commenter-details {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
 
 .avatar {
     border-radius: 50%;
@@ -18,21 +25,14 @@
     width: 45px;
 }
 
-.commenter {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.user,
-.name,
-.comment-content {
-    font-size: $font-size-sm;
-}
-
 .commenter-title {
     color: $color-secondary;
+}
+
+.name,
+.commenter-title,
+.comment-content {
+    font-size: $font-size-sm;
 }
 
 @media (min-width: 1440px) {
@@ -42,19 +42,15 @@
     }
 
     .comment {
+        position: relative;
         padding: 2.5rem 2rem;
     }
 
-    .comment-1 {}
-
-    .comment-2 {
-        position: relative;
+    .comment:nth-child(2) {
         top: 1rem;
-        font-size: 15px;
     }
 
-    .comment-3 {
-        position: relative;
+    .comment:nth-child(3) {
         top: 2rem;
     }
 }
